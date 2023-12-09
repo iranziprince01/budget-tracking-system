@@ -1,0 +1,100 @@
+import sqlite3
+
+# Create a connection to an SQLite database (or create it if it doesn't exist)
+conn = sqlite3.connect('budget_tracking.db')
+cursor = conn.cursor()
+
+# Create Users table
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS Users (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        email TEXT UNIQUE,
+        password TEXT
+    )
+''')
+
+# Create Incomes table
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS Incomes (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER,
+        date DATE,
+        amount DECIMAL(10, 2),
+        source TEXT,
+        FOREIGN KEY (user_id) REFERENCES Users(id)
+    )
+''')
+
+# Create Expenses table
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS Expenses (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER,
+        date DATE,
+        amount DECIMAL(10, 2),
+        category_id INTEGER,
+        description TEXT,
+        FOREIGN KEY (user_id) REFERENCES Users(id),
+        FOREIGN KEY (category_id) REFERENCES Categories(id)
+    )
+''')
+
+# Create Categories table
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS Categories (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER,
+        name TEXT,
+        FOREIGN KEY (user_id) REFERENCES Users(id)
+    )
+''')
+
+# Create Reports table
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS Reports (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER,
+        name TEXT,
+        date_from DATE,
+        date_to DATE,
+        filters TEXT,
+        data TEXT,
+        FOREIGN KEY (user_id) REFERENCES Users(id)
+    )
+''')
+
+# Insert sample data into Users table
+cursor.execute('''
+    INSERT INTO Users (name, email, password) VALUES 
+    ('John Doe', 'john@example.com', 'password123'),
+    ('Jane Smith', 'jane@example.com', 'pass456')
+''')
+
+# Insert sample data into Categories table
+cursor.execute('''
+    INSERT INTO Categories (user_id, name) VALUES 
+    (1, 'Groceries'),
+    (1, 'Utilities'),
+    (2, 'Transportation')
+''')
+
+# Insert sample data into Incomes table
+cursor.execute('''
+    INSERT INTO Incomes (user_id, date, amount, source) VALUES 
+    (1, '2023-12-01', 2500.00, 'Salary'),
+    (2, '2023-12-05', 1800.00, 'Freelancing')
+''')
+
+# Insert sample data into Expenses table
+cursor.execute('''
+    INSERT INTO Expenses (user_id, date, amount, category_id, description) VALUES 
+    (1, '2023-12-03', 120.50, 1, 'Groceries for the week'),
+    (1, '2023-12-05', 80.00, 2, 'Electricity bill'),
+    (2, '2023-12-10', 50.00, 3, 'Bus fare')
+''')
+
+# Commit changes and close connection
+conn.commit()
+conn.close()
+
