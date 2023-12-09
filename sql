@@ -1,4 +1,3 @@
--- Users table
 CREATE TABLE Users (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255),
@@ -6,7 +5,6 @@ CREATE TABLE Users (
     password VARCHAR(255)
 );
 
--- Incomes table
 CREATE TABLE Incomes (
     id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT,
@@ -16,7 +14,6 @@ CREATE TABLE Incomes (
     source VARCHAR(255)
 );
 
--- Expenses table
 CREATE TABLE Expenses (
     id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT,
@@ -28,7 +25,6 @@ CREATE TABLE Expenses (
     FOREIGN KEY (category_id) REFERENCES Categories(id)
 );
 
--- Categories table
 CREATE TABLE Categories (
     id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT,
@@ -36,7 +32,6 @@ CREATE TABLE Categories (
     name VARCHAR(255)
 );
 
--- Reports table
 CREATE TABLE Reports (
     id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT,
