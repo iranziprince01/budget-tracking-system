@@ -1,7 +1,7 @@
 # DREAMERS - Budget Tracking System 
 
 ## Overview
-The Budget Tracking System is a simple and intuitive application designed to help users effectively manage and track their government and personal finances. This system provides a user-friendly interface to record expenses, monitor income, and generate insightful reports, empowering individuals to make informed financial decisions.
+The Budget Tracking System is a simple and intuitive application designed to help users manage and track their government and personal finances effectively. This system provides a user-friendly interface to record expenses, monitor income, and generate insightful reports, empowering individuals to make informed financial decisions.
 
 ![image](https://github.com/iranziprince01/budget-tracking-system/assets/116654088/498036a1-c93b-4f44-b470-f014224dd41b)
 
@@ -43,7 +43,7 @@ npm start
 Open your browser and visit http://localhost:3000 to access the Budget Tracking System.
 
 ## Usage 
-Upon accessing the application, create an account or log in to an existing account. Navigate through the dashboard to add expenses, manage income, view reports, and customize categories. Could you make sure regular updates of financial data to maintain accurate records!
+Upon accessing the application, create an account or log in to an existing account. Navigate through the dashboard to add expenses, manage income, view reports, and customize categories. Could you make sure regular updates of financial data to maintain accurate records?
 
 ## Technologies Used 
 - **Node.js**: Backend server environment.
@@ -61,14 +61,14 @@ Upon accessing the application, create an account or log in to an existing accou
 6. [Innocent Manzi](https://github.com/Manziinnocentmanzi)
 
 ## Contributing
-If you'd like to contribute to this project, please follow the general Contribution Guidelines.
+Please follow the general Contribution Guidelines if you'd like to contribute to this project.
 
 ## License 
 This project is licensed under the M.I.T. License - see the [LICENSE](https://opensource.org/license/mit/) file for more details.
 
 ## Contact
-For questions or support, please contact us at hello@dreamers.com.
+For questions or support, please get in touch with us at hello@dreamers.com.
 
 ## Acknowledgments 
-Special thanks to  Pellin and the entire B.S.E. coaching staff for inspiration and guidance during the development of this project.This project stands as a testament to our collective skills and knowledge in the field.
+Special thanks to  Perlin and the entire B.S.E. coaching staff for inspiration and guidance during the development of this project. This project is a testament to our collective skills and knowledge in the field.
 
