@@ -680,5 +680,43 @@
         </nav>
       </div>
     </footer>
+    <script>
+      document.getElementById('signUpButton').addEventListener('click', function(e) {
+        e.preventDefault();
+    
+        var fullName = document.getElementById('full-name').value;
+        var email = document.getElementById('email').value;
+        var selectWhere = document.getElementById('select-where').value;
+    
+        var data = {
+          fullName: fullName,
+          email: email,
+          selectWhere: selectWhere
+        };
+    
+        fetch('/register', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        })
+        .then(function(response) {
+          if (response.ok) {
+            return response.json();
+          } else {
+            throw new Error('Error: ' + response.status);
+          }
+        })
+        .then(function(data) {
+          console.log(data.message);
+          // Handle the success response here
+        })
+        .catch(function(error) {
+          console.error(error);
+          // Handle the error here
+        });
+      });
+    </script>
   </body>
 </html>
