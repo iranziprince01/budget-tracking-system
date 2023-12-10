@@ -1,7 +1,7 @@
 # DREAMERS - Budget Tracking System 
 
 ## Overview
-The Dreamers Budget Tracking System is a simple and intuitive application designed to help users effectively manage and track their government and personal finances. This system provides a user-friendly interface to record expenses, monitor income, and generate insightful reports, empowering individuals to make informed financial decisions.
+The Budget Tracking System is a simple and intuitive application designed to help users effectively manage and track their government and personal finances. This system provides a user-friendly interface to record expenses, monitor income, and generate insightful reports, empowering individuals to make informed financial decisions.
 
 ![image](https://github.com/iranziprince01/budget-tracking-system/assets/116654088/498036a1-c93b-4f44-b470-f014224dd41b)
 
