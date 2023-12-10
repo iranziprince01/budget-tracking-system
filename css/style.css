@@ -315,7 +315,7 @@
 }
 
 .expense-attribute {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
@@ -329,6 +329,11 @@
 
 .expense-img {
   width: 100%;
+}
+
+strong.amount {
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .all-transactions {
