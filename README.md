@@ -53,12 +53,12 @@ Upon accessing the application, create an account or log in to an existing accou
 - Chart.js: JavaScript library for creating charts and graphs
 
 ## Contributors 
-1. [Joshua along](https://github.com/Malongmak)
+1. [Joshua Malong](https://github.com/Malongmak)
 2. [Sabir Abdurahman Walid](https://github.com/SabirWalid)
 3. [Prince Iranzi](https://github.com/iranziprince01)
 4. [Islam Omar](https://github.com/Islam-19984)
 5. [Noella Uwayo](https://github.com/n-uwayo)
-6. [Innocent](https://github.com/Manziinnocentmanzi)
+6. [Innocent Manzi](https://github.com/Manziinnocentmanzi)
 
 ## Contributing
 If you'd like to contribute to this project, please follow the general Contribution Guidelines.
@@ -66,70 +66,8 @@ If you'd like to contribute to this project, please follow the general Contribut
 ## License 
 This project is licensed under the M.I.T. License - see the [LICENSE](https://opensource.org/license/mit/) file for more details.
 
+## Contact
+For questions or support, please contact us at hello@dreamers.com.
+
 ## Acknowledgments 
 Special thanks to  Pellin and the entire B.S.E. coaching staff for inspiration and guidance during the development of this project.
-
-
-Features
-Expense Tracking: Keep a record of your daily expenses and categorize them for better understanding.
-
-Budget Planning: Set monthly or custom budgets to manage your spending effectively.
-
-Visualizations: View graphical representations of your financial data to gain insights into your spending patterns.
-
-Currency Support: The system supports the local currency used in South Sudan for accurate and relevant financial information.
-
-Getting Started
-Prerequisites
-Make sure you have Node.js installed.
-Ensure you have MongoDB set up and running.
-Installation
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/<your_username>/<your_project_name>.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd <your_project_name>
-Install dependencies:
-
-bash
-Copy code
-npm install
-Set up the database:
-
-Create a .env file based on the provided .env.example and configure it with your MongoDB connection details.
-Start the application:
-
-bash
-Copy code
-npm start
-Open your browser and visit http://localhost:3000 to access the Budget Tracking System.
-
-Usage
-Register:
-
-Create an account to start using the system.
-Login:
-
-Log in with your credentials.
-Expense Tracking:
-
-Add your daily expenses and categorize them appropriately.
-Budget Planning:
-
-Set your monthly or custom budgets to manage your spending.
-Visualizations:
-
-Explore the graphical representations to understand your financial data.
-Contributing
-If you'd like to contribute to this project, please follow the Contribution Guidelines.
-
-License
-This project is licensed under the MIT License.
-
-Contact
-For questions or support, please contact <your_email_address>.
