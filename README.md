@@ -70,4 +70,5 @@ This project is licensed under the M.I.T. License - see the [LICENSE](https://op
 For questions or support, please contact us at hello@dreamers.com.
 
 ## Acknowledgments 
-Special thanks to  Pellin and the entire B.S.E. coaching staff for inspiration and guidance during the development of this project.
+Special thanks to  Pellin and the entire B.S.E. coaching staff for inspiration and guidance during the development of this project.This project stands as a testament to our collective skills and knowledge in the field.
+
