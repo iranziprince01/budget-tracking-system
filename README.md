@@ -45,12 +45,12 @@ Open your browser and visit http://localhost:3000 to access the Budget Tracking 
 ## Usage 
 Upon accessing the application, create an account or log in to an existing account. Navigate through the dashboard to add expenses, manage income, view reports, and customize categories. Could you make sure regular updates of financial data to maintain accurate records!
 
-##Technologies Used 
-- Node.js: Backend server environment
-- Express.js: Web application framework
-- MYSQL: Database management system
-- HTML5, CSS3: Frontend library for building user interfaces
-- Chart.js: JavaScript library for creating charts and graphs
+## Technologies Used 
+- **Node.js**: Backend server environment.
+- **Express.js**: Web application framework.
+- **MYSQL**: Database management system.
+- **HTML5, CSS3**: Frontend library for building user interfaces.
+- **Chart.js**: JavaScript library for creating charts and graphs.
 
 ## Contributors 
 1. [Joshua Malong](https://github.com/Malongmak)
