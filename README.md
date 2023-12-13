@@ -9,16 +9,15 @@ The Budget Tracking System is a simple and intuitive application designed to hel
 ## Features 
 - **Expense Tracking**: Easily record and categorize expenses to comprehensively analyze spending habits.
 - **Income Management**: Keep track of various sources of income to understand your overall financial picture.
-- **Custom Categories**: Create personalized spending categories to suit your specific budgeting needs.
-- **Reporting**: Generate detailed reports and visual graphs to analyze spending patterns over time.
+
 - **User Authentication**: Securely manage your financial data through user authentication and access control.
 - **Visualizations**: View graphical representations of your financial data to gain insights into your spending patterns.
 - **Currency Support**: The system supports the local currency used in South Sudan for accurate and relevant financial information.
 
 ## Getting Started
 ### Prerequisites
-- Make sure you have Node.js installed.
-- Ensure you have MongoDB set up and running.
+- Make sure you have Xampp installed.
+- Ensure you have mysql set up and running.
   
 ## Installation
 1. Clone the repository:
@@ -29,28 +28,20 @@ git clone https://github.com/iranziprince01/budget-tracking-system.git
 ```
 cd budget-tracking-system
 ```
-3. Install dependencies:
-```
-npm install
-```
-4. Set up the database:
-Create a ```.env``` file based on the provided .env.example and configure it with your MongoDB connection details.
 
-5. Start the application:
-```
-npm start
-```
-Open your browser and visit http://localhost:3000 to access the Budget Tracking System.
+Open your browser and visit http://localhost/budget-tracking-system/to access the Budget Tracking System.
+
+
+Deployment on 000webhost   link https://btsaluapplication.000webhostapp.com/
 
 ## Usage 
 Upon accessing the application, create an account or log in to an existing account. Navigate through the dashboard to add expenses, manage income, view reports, and customize categories. Could you make sure regular updates of financial data to maintain accurate records!
 
 ## Technologies Used 
-- **Node.js**: Backend server environment.
-- **Express.js**: Web application framework.
+- **php**: Backend server environment.
 - **MYSQL**: Database management system.
-- **HTML5, CSS3**: Frontend library for building user interfaces.
-- **Chart.js**: JavaScript library for creating charts and graphs.
+- **HTML5, CSS3,JS**: Frontend library for building user interfaces.
+
 
 ## Contributors 
 1. [Joshua Malong](https://github.com/Malongmak)
