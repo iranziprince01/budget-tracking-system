@@ -10,8 +10,7 @@ The Budget Tracking System is a simple and intuitive application designed to hel
 
 - **Expense Tracking**: Easily record and categorize expenses to comprehensively analyze spending habits.
 - **Income Management**: Keep track of various sources of income to understand your overall financial picture.
-- **Custom Categories**: Create personalized spending categories to suit your specific budgeting needs.
-- **Reporting**: Generate detailed reports and visual graphs to analyze spending patterns over time.
+
 - **User Authentication**: Securely manage your financial data through user authentication and access control.
 - **Visualizations**: View graphical representations of your financial data to gain insights into your spending patterns.
 - **Currency Support**: The system supports the local currency used in South Sudan for accurate and relevant financial information.
@@ -19,6 +18,9 @@ The Budget Tracking System is a simple and intuitive application designed to hel
 ## Getting Started
 
 ### Prerequisites
+
+- Make sure you have Xampp installed.
+- Ensure you have mysql set up and running.
 
 - Make sure you have Node.js installed.
 - Ensure you have MongoDB set up and running.
@@ -36,6 +38,12 @@ git clone https://github.com/iranziprince01/budget-tracking-system.git
 ```
 cd budget-tracking-system
 ```
+<<<<<<< HEAD
+
+Open your browser and visit http://localhost/budget-tracking-system/to access the Budget Tracking System.
+
+
+[You can access the system here:](https://btsaluapplication.000webhostapp.com/)
 
 3. Install dependencies:
 
@@ -60,11 +68,14 @@ Upon accessing the application, create an account or log in to an existing accou
 
 ## Technologies Used
 
+## Technologies Used 
+- **php**: Backend server environment.
 - **Node.js**: Backend server environment.
+- **Mongodb**: Database connection and access.
 - **Express.js**: Web application framework.
 - **MYSQL**: Database management system.
-- **HTML5, CSS3**: Frontend library for building user interfaces.
-- **Chart.js**: JavaScript library for creating charts and graphs.
+- **HTML5, CSS3,JS**: Frontend library for building user interfaces.
+
 
 ## Contributors
 
