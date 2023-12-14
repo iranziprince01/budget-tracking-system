@@ -38,12 +38,11 @@ git clone https://github.com/iranziprince01/budget-tracking-system.git
 ```
 cd budget-tracking-system
 ```
-<<<<<<< HEAD
 
-Open your browser and visit http://localhost/budget-tracking-system/to access the Budget Tracking System.
+Open your browser and visit [Budget Tracking System](https://btsaluapplication.000webhostapp.com/) to access the Budget Tracking System.
 
 
-[You can access the system here:](https://btsaluapplication.000webhostapp.com/)
+
 
 3. Install dependencies:
 
