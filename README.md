@@ -100,3 +100,7 @@ For questions or support, please get in touch with us at hello@dreamers.com.
 ## Acknowledgments
 
 Special thanks to Perlin and the entire B.S.E. coaching staff for inspiration and guidance during the development of this project. This project is a testament to our collective skills and knowledge in the field.
+
+![Screenshot_20231109-153342](https://github.com/iranziprince01/budget-tracking-system/assets/122350054/fbfd95da-b90c-4530-812d-4b30039ba1f3)
+
+
